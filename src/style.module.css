@@ -1,0 +1,32 @@
+.container{
+    background-color: #121212;
+    color: #FFF;
+    padding: 30px;
+    margin: 0 auto;
+
+    border-style: solid;
+    border-color: yellow;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.box {
+    animation: fadeIn 5s;
+    background-color: #73b9ed;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@keyframes fadeIn  {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
